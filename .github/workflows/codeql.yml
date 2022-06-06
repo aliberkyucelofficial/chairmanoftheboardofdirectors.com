@@ -21,8 +21,8 @@ on:
     - cron: '28 20 * * 6'
 
 jobs:
-  analyze:
-    name: Analyze
+  
+    name: aliberkyucelofficial
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -67,4 +67,4 @@ jobs:
     #   make release
 
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
+      uses: krebsyofficial
